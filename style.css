@@ -1,0 +1,28 @@
+/* style.css */
+body {
+    background-image: url("background.jpg"); /* Replace with your image file path */
+        background-size: cover; /* Adjust image size to cover the entire background */
+            background-repeat: repeat; /* Prevents the image from repeating */
+            }
+
+            /* ... other styles ... */
+
+            #terms p {
+              color:  magenta; /* Change the color of all paragraph elements to blue */
+              }
+
+              #terms strong {
+                color: #F4DF4EFF; /* Change the color of all strong elements to red */
+                }
+
+                .container h2 {
+                  color: #FFF; /* Change the color of all paragraph elements to red */
+                  }
+
+                  .container label {
+                    color: #FFF; /* Change the color of all strong elements to red */
+                    }
+
+                    .container {
+                      backdrop-filter: blur(0.8px); /* Apply blur effect */
+                      }
