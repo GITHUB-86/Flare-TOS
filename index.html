@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLARE - Terms of service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #terms {
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            /* Make sure this isn't set to `display: none` */
+        }
+    </style>
+</head>
+    <div class="container">
+        <h2>            TERMS OF SERVICE</h2>
+        
+        <div id="terms">
+            <p><strong>1. Acceptance of Terms</strong></p>
+            <p>By using the Flare Discord bot ("the Bot"), you agree to comply with and be bound by these terms of service. If you do not agree with any part of these terms, you may not use the Bot.</p>
+
+            <p><strong>2. Privacy and Data Storage</strong></p>
+            <p>We collect and store anonymous messages for the purpose of providing our service. While we take measures to secure your data, we cannot guarantee absolute security. By using the Bot, you acknowledge and agree to the storage of your anonymous messages.</p>
+
+            <p><strong>3. Responsible Use</strong></p>
+            <p>You agree to use the Bot responsibly and in compliance with Discord's terms of service. Do not use the Bot for illegal or harmful activities. The Bot is provided for entertainment and communication purposes only.</p>
+
+            <p><strong>4. Moderation and Abuse</strong></p>
+            <p>Server administrators have the right to moderate and control the use of the Bot within their servers. Abuse, harassment, or any violation of these terms may result in the removal of the Bot from the server.</p>
+
+            <p><strong>5. Changes to Terms</strong></p>
+            <p>We reserve the right to modify or replace these terms at any time. Your continued use of the Bot after any changes constitute acceptance of the modified terms.</p>
+
+            <p><strong>6. Termination</strong></p>
+            <p>We reserve the right to terminate or suspend access to the Bot for any reason, without notice, at our discretion.</p>
+
+            <p><strong>7. Disclaimer</strong></p>
+            <p>The Bot is provided "as is" without any warranty. We are not responsible for any damages or loss arising from the use of the Bot.</p>
+
+            <p><strong>8. Contact Information</strong></p>
+            <p><button onclick="window.location.href='https://discord.com/invite/TusQw5cvma'">Join our Discord Server For Help</button>
+        </div></p>
+
+        <label for="agreeCheckbox">
+            <input type="checkbox" id="agreeCheckbox">
+            I have read and agree to the Terms of Service
+        </label>
+
+        <br><br>
+
+        <button onclick="checkAgreement()">Continue</button>
+
+        <script>
+            function checkAgreement() {
+                const agreeCheckbox = document.getElementById("agreeCheckbox");
+
+                if (agreeCheckbox.checked) {
+                    // Redirect to the next page or perform necessary actions
+                    alert("Thank you for agreeing to the Terms of Service!");
+                } else {
+                    alert("Please agree to the Terms of Service to continue.");
+                }
+            }
+        </script>
+    </div>
+</body>
+              </html>
